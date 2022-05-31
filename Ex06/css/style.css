@@ -1,0 +1,37 @@
+
+#tabla {
+    border-style: groove;
+    border-collapse: separate;
+}
+
+#tabla td {
+    background-color: #e2e2b5;
+    color: brown;
+    text-align: center;
+}
+
+#tabla th {
+    background-color: #569956;
+    color: rgb(105, 27, 27);
+    font-weight: 100;
+}
+
+#tabla .celdas-superiores {
+    background-color: #ffc68c;
+}
+
+#tabla .celdas-centrales {
+    background-color: #ffff7a;
+}
+
+#tabla,
+th,
+td {
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: separate;
+}
+
+.imagen-fondo{
+    background-image: url("../img/huellas.jpg");
+}

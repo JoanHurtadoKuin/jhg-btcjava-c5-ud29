@@ -1,0 +1,30 @@
+
+table{
+    margin: 50px;
+    padding: 4px ;
+    border: 3px solid darkturquoise;
+    box-shadow: inset -2px -2px 2px 2px darkturquoise;
+    border-spacing: 0px;
+}
+
+tr, th, td{
+    border: 2px solid darkturquoise;
+}
+
+th {
+    width: 150px;
+}
+
+.head{
+   background-color: darkcyan;
+   color: palegreen;
+}
+
+.row-par{
+    background-color: palegreen;
+ }
+
+.row-impar{
+    background-color: darkseagreen;
+
+ }

@@ -1,0 +1,27 @@
+
+body{
+    background-image: url(../img/pinguino-rey-770x385.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+}
+
+table{
+    transform: translate(0%,500%);
+    text-align: center;
+    width: 75%;
+    margin:auto;
+    box-shadow: inset -2px -2px 2px 2px grey;
+    border-spacing: 0px;
+    padding: 10px;
+    background-color: white;
+}
+
+tr, th, td{
+    border:2px solid grey;
+    
+}
+
+.celdas{
+    background-color: khaki;
+}
