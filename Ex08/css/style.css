@@ -1,0 +1,73 @@
+.anterior{
+    border-style: solid;
+    border-color: blue;
+    width: 200px;
+    height: 100px;
+    background-color: cyan;
+    position: relative;
+}
+
+#nubes{
+    position: absolute;
+    background-image: url(../imagenes/f03.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+#mario{
+    position: absolute;
+    background-image: url(../imagenes/f02.png);
+    width: 100%;
+    height: 100%;
+    bottom: 8%;
+    background-repeat: no-repeat;
+}
+
+#suelo{
+    position: absolute;
+    background-image: url(../imagenes/f01.png);
+    width: 100%;
+    height: 10%;
+    background-repeat: repeat;
+    background-size: contain;
+    bottom: 0;
+    background-repeat: repeat;
+}
+
+.centro{
+    border-style: solid;
+    border-color:red;
+    background-color: cyan;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+#nubes_centro{
+    background-image: url(../imagenes/f03.png);
+    width: 100%;
+    height: 20%;
+    background-size: contain; 
+}
+
+#mario_centro{
+    position: absolute;
+    background-image: url(../imagenes/f02.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30%;
+    left: 0%;
+    bottom: 4%;
+}
+
+#suelo_centro{
+    position: absolute;
+    background-image: url(../imagenes/f01.png);
+    width: 100%;
+    height: 10%;
+    background-size: contain;
+    bottom: 0;
+    left: 0;
+    background-repeat: repeat;
+}
